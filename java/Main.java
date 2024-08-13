@@ -32,5 +32,7 @@ public class Main {
         System.out.println(solution8.removeWhitespaces(" leerzeichen    tab \n umbruch"));
 
 
+        Solution9 solution9 = new Solution9();
+        System.out.println(solution9.joinByDelimiter('-', "abc", "das", "ist", "ein", "test"));
     }
 }
