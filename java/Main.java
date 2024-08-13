@@ -28,6 +28,8 @@ public class Main {
 
         //solution 7 is just java methods..
 
+        Solution8 solution8 = new Solution8();
+        System.out.println(solution8.removeWhitespaces(" leerzeichen    tab \n umbruch"));
 
 
     }
