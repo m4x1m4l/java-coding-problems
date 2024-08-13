@@ -1,7 +1,4 @@
-import chapter1.Solution1;
-import chapter1.Solution2;
-import chapter1.Solution3;
-import chapter1.Solution4;
+import chapter1.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -19,6 +16,10 @@ public class Main {
         Solution4 solution4 = new Solution4();
         System.out.println(solution4.checkIfOnlyDigits("1234"));
         System.out.println(solution4.checkIfOnlyDigits("21234s3234"));
+
+        Solution5 solution5 = new Solution5();
+        System.out.println(solution5.countVowels("aaaabbbbb"));
+        System.out.println(solution5.countConsonants("aaaabbbbb"));
 
     }
 }
