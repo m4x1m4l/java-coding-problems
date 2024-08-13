@@ -21,5 +21,12 @@ public class Main {
         System.out.println(solution5.countVowels("aaaabbbbb"));
         System.out.println(solution5.countConsonants("aaaabbbbb"));
 
+        Solution6 solution6 = new Solution6();
+        System.out.println(solution6.countOccurence("abbccc", 'c'));
+        System.out.println(solution6.countOccurence2("abbccc", 'c'));
+        System.out.println(solution6.countOccurence3("abbccc", 'c'));
+
+
+
     }
 }
