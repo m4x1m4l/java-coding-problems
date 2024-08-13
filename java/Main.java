@@ -26,6 +26,8 @@ public class Main {
         System.out.println(solution6.countOccurence2("abbccc", 'c'));
         System.out.println(solution6.countOccurence3("abbccc", 'c'));
 
+        //solution 7 is just java methods..
+
 
 
     }
